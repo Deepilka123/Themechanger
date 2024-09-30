@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body.light {
+    @apply bg-white text-black;
+}
+
+body.dark {
+    @apply bg-gray-900 text-white;
+}
+
+body.blue {
+    @apply bg-blue-500 text-white;
+}
+
+body.green {
+    @apply bg-green-500 text-white;
+}
